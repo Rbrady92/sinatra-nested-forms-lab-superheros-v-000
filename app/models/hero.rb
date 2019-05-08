@@ -3,10 +3,10 @@ class Hero
 
   HEROES =[]
 
-  def initialize(args)
-    @name = args[:name]
-    @power = args[:power]
-    @bio = args[:bio]
+  def initialize(info)
+    @name = info[:name]
+    @power = info[:power]
+    @bio = info[:bio]
     HEROES << self
   end
 
@@ -15,4 +15,3 @@ class Hero
   end
 
 end
-  
